@@ -15,11 +15,11 @@ Since cell classification is required, the classification learning method is use
 
 ## Implementation
 
-### Datenaufbereitung 
-Da die Bilder jeweils unterschiedlich groß sind, werden die Bilder mittels Zero-Padding Verfahren auf eine einheitliche Größe gebracht. Hierbei wird zunächst die maximale Breite und die maximale Höhe bestimmt, die in dem Datensatz auftreten. Entsprechend der maximalen Höhe und der maximalen Breite werden nun leere Bilder, also Bilder mit Nullen erzeugt. Die Bilder des Datensatzes werden nun in die Mitte der leeren Bilder kopiert.
+### Data preparation
+Since the images are of different sizes, they are resized to a uniform size using the zero-padding method. Firstly, the maximum width and maximum height of the dataset are determined. Empty images, or images with zeros, are then generated based on the maximum height and width. The images in the dataset are then copied to the center of the empty images.
 
 
-### Aufbau des Netzes 
+### Network architecture
 
 The network consists of one layer of input neurons, five hidden layers, and one output layer. The network has one output neuron, whose output indicates the classification performed by the neural network. If the output neuron is activated, the neural network detects a cell infected with malaria. If the output neuron is not activated, the network detects a cell without a malaria infection. The output of the neural network is denoted by "o".
 
