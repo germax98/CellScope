@@ -3,9 +3,9 @@
 
 The CellScope project was created as a student project. The task of the project was to develop a program that is capable of identifying malaria based on images of blood cells using machine learning. For this purpose, a data set from Google is used, which contains both healthy and infected cells.
 
-![uninfected_cell](ImageMD/Boostrap.png?raw=true "Title")
+![uninfected_cell](ImagesReadMe/uninfected.png?raw=true "Title")
 
-![infected_cell](ImageMD/Boostrap.png?raw=true "Title")
+![infected_cell](ImagesReadMe/Infected.png?raw=true "Title")
 
 ## About This Project
 
