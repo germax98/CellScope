@@ -26,7 +26,7 @@ The network consists of one layer of input neurons, five hidden layers, and one 
 Each image pixel is represented by a neuron in the input layer. Each neuron in a layer is connected to all neurons in the next layer via a weight matrix. With the output of a layer of neurons, the connecting weight matrix, and the activation function, the output of the next layer can be determined.
 
 
-[uninfected_cell](ImagesReadMe/NeuronalesNetz.png?raw=true "Title")
+![NeuronalesNetz](ImagesReadMe/NeuronalesNetz.png?raw=true "Title")
 
 
 For the forward propagation, the decision was made to use the sigmoid function. 
