@@ -57,7 +57,7 @@ recall = TP/TP +FN                  = 78.07%
 
 The network is fundamentally able to identify malaria based on the cell images. The accuracy of around 80% is significantly higher than what would be expected from a random classification. In general, the target accuracy for classification tasks is over 90%. This goal was not achieved for the classification of malaria. The very simple structure of the network is probably not sufficient for this task.
 
-## Verwendete Technologien
+## Used Technologies
 
 - Python
 - Jupyter
